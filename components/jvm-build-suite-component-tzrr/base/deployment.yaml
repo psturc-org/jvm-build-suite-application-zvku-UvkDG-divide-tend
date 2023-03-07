@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-tzrr
     spec:
       containers:
-      - image: quay.io/psturc/test-images:4074ebc93a8f457e8f10b0013c5981a5
+      - image: quay.io/psturc/test-images@sha256:e1e972b9f650051d6384ee59393fdb5c678f0b01fef8f728b5ed1deb5cbe0bbd
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
